@@ -1,0 +1,51 @@
+header{
+
+    display: inline-flex;
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+background-color: white;
+}
+
+
+
+.up{
+    color: #F67366;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.ship{
+    color: var(--simblue, #2C2D5B);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+#requestDemo{
+  
+    border-radius: 12px;
+    border: 1px solid var(--simblue, #2C2D5B);
+}
+#joinNow{
+    border-radius: 12px;
+    background: var(--simblue, #2C2D5B);
+    color: white;
+    margin-left:rem;
+}
+#navInnerItem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#navButton{
+    display: flex;
+align-items: center;
+gap: 30px;
+}
